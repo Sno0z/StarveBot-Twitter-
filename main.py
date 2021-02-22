@@ -2,10 +2,10 @@ import twitter
 import time
 print()
 
-api = twitter.Api(consumer_key='ArEa5vPCaWESXBG4xq56qLSSs',
-                      consumer_secret='yQPjcVW2ufTRHoU5LcdUH0FCcnRLtPkiKLHvrJTUOOqvAarGyy',
-                      access_token_key='1363431429611356161-xboein4j6V17DiZIkjhOjVBD7kS4JJ',
-                      access_token_secret='1PFJig0fSrw4sBl2IFQxuROyea6iKwuepPOMcY0YYHqID')
+api = twitter.Api(consumer_key='consumer key',
+                      consumer_secret='consumer secret',
+                      access_token_key='access token',
+                      access_token_secret='access token secret')
 
 tweets = 0
 searchs = 0
